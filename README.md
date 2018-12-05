@@ -8,6 +8,8 @@
 
 ### Change values are needed
 
+Change the values in test/login.spec.js
+
 ``` const APP = "<ur app url>";
 
 const lead = {
