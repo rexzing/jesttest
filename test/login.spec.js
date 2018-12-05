@@ -27,8 +27,8 @@ describe("Contact form", () => {
   test("user can submit a login request", async () => {
     await page.goto(APP);
     await page.waitForSelector("#Username");
-    await page.click("input[name=CountryCode]");
-    await page.type("input[name=CountryCode]", lead.countrycode);
+    await page.click("select[name=CountryCode]");
+    await page.type("select[name=CountryCode]", lead.countrycode);
     await page.click("input[name=Username]");
     await page.type("input[name=Username]", lead.username);
     await page.click("input[name=Password]");
