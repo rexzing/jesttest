@@ -1,0 +1,18 @@
+{
+  "name": "testing-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Chathuranga Bandara <contact@chathuranga.com> (http://chathuranga.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "puppeteer": "^1.11.0"
+  }
+}
