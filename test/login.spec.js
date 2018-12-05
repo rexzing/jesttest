@@ -24,7 +24,7 @@ beforeAll(async () => {
 });
 
 describe("Contact form", () => {
-  test("lead can submit a contact request", async () => {
+  test("user can submit a login request", async () => {
     await page.goto(APP);
     await page.waitForSelector("#Username");
     await page.click("input[name=CountryCode]");
