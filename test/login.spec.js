@@ -3,7 +3,7 @@ const APP = "http://eval-development-eval.10.10.1.183.xip.io";
 
 const lead = {
   username: "766458467",
-  Password: "wolf5",
+  Password: "****",
   countrycode: "sr" 
 };
 
